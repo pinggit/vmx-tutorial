@@ -25,9 +25,13 @@
 //issues, questions, etc similar to "comment", but can be displayed in vim/voom
 //in side panel
 :doctype: book
+//this line is to generate a "side panel"
 :toc: right
 :toclevels: 3
 :toc-title: Table of Content
+//these below 2 lines are for github
+:toc: manual
+:toc-placement: preamble
 :numbered:
 :iconsdir: 
 :icons: font
