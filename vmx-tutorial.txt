@@ -9925,15 +9925,19 @@ RPIO has a data and control channels for host packets and state communication
 
 === to crash riot:
 
-Kill!riot.py!process!ID!list!as!in!/home/pfe/riot.py!or!use!‘top’!command!to!find!out!
-the!process!ID.!!Issue!kill!F9!PID!
+Kill riot.py process ID list as in /home/pfe/riot.py or use ‘top’ command to
+find out the process ID.  Issue `kill F9 PID`
 
-*This!note!is!to!verify!traffic!is!using!flow!cache!from!white!box!testing.!
-! ! ! 1.!!login!to!vfp!console!as!root.!
-! ! ! 2.!!edit!/etc/riot/runtime.config!with!set!console_to_file=1!
-! ! ! 3.!!Then!in!/var/log/riot.log.0.core!search!for!IP!address!that!has!traffic!running.!
-! ! ! If!the!entry!exists!and!the!action!is!not!ucode!then!you!can!say!that!flow!is!using!the!flowFcaching.!
-If!the!entry!doesn’t!exsit!then!for!sure!this!flow!is!not!going!through!flow!caching.!
+*This note is to verify traffic is using flow cache from!white box testing. 
+
+1.  login to vfp console as root. 
+2.  edit /etc/riot/runtime.config with set console_to_file=1 
+3.  Then in /var/log/riot.log.0.core search for IP address that has traffic running. 
+
+If the entry exists and the action is not ucode then you can say that flow is
+using the flow caching. 
+If the entry doesn’t exsit then for sure this flow is not going through flow
+caching. 
 
 == vcpu usage
 
