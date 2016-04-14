@@ -1,1 +1,81 @@
-vmx-tutorial.adoc
+// vim:set ft=asciidoc syntax=ON :
+= vmx tutorial
+
+Kernel-based Virtual Machine (KVM) is a virtualization infrastructure for the
+Linux kernel that turns it into a hypervisor. It has been gaining industry
+traction and market share in a wide variety of software deployments in just a
+few short years. KVM turns to be a very interesting virtualization topic and is
+well positioned for the future.
+
+Juniper MX86(VMX: Virtual MX) is a virtual version of the MX Series 3D
+Universal Edge Router that is installed on an industry-standard x86 server
+running a Linux operating system, applicable third-party software, and the KVM
+hypervisor. It is one of industry-level implementations of router based on KVM
+technology.
+
+:numbered!:
+
+== about This doc :
+
+This doc records some learning and testing notes about KVM/MX86 technology.
+
+//* commands in this doc does not require: 
+//+
+//--
+//  ** ILO/console access of the server (except initial bios setup, if necessary)
+//  ** root password
+//--
+//+
+//however it requires sudo priviledge to run root level commands
+
+* illustration of various installation procedures
+* illustration of verification procedure
+* illustration of features involved in VMX installation process, mostly from
+  KVM/virtualization technology's perspecive 
+* some case studies
+
+This doc can be used as reference when you: 
+
+* read the official VMX documents, use this as an "accompanying" doc
+* need a quick list of commands to verify a feature or troubleshoot an issue
+* when run into issues, need a "working example" as a reference
+
+.format of this doc
+
+following format is available to read/download:
+
+* HTML:                 vmx-tutorial.html
+* PDF:                  vmx-tutorial.pdf
+* asciidoc(pure text)   vmx-tutorial.adoc
+
+.future update
+
+As things changes along and as I accumulated more practical usages cases/issues
+from the fields/discussions/lab tests, I may update this doc periodically
+whenever I feel there is a need.
+
+The html file will always be the most up-to-date version. PDF version will be
+generated whenever big changes were made.
+
+.a "TODO" list:
+
+There are a lot of relevant contents that I haven't put into this doc. I'll add
+more topics whenever I find more time and accumulated enough resources and test
+cases.
+
+* breakdown of qemu command parameters
+//* customerization of the installation script to make it startup friendly
+* libvirt API scripting
+* Intel DPDK
+* NUMA
+* KSM
+* Intel EPT/AMD
+* HyperThreading(HT)
+* internal stuff (flow cache, junos troubleshooting, internal packet flow, etc)
+* troubleshooting KVM/VMX
+
+
+== feedback
+
+send your feedback/comment by email (pings@juniper.net) or open ticket in here if you find any issues.
+
