@@ -157,7 +157,8 @@ technology.
 
 == about This doc :
 
-This doc records some learning and testing notes about KVM/MX86 technology.
+This document records some of my learning and testing notes about KVM/MX86 and
+related technologies. Current it contains: 
 
 //* commands in this doc does not require: 
 //+
@@ -174,19 +175,26 @@ This doc records some learning and testing notes about KVM/MX86 technology.
   KVM/virtualization technology's perspecive 
 * some case studies
 
-This doc can be used as reference when you: 
+This doc can be used as a reference when you: 
 
-* read the official VMX documents, use this as an "accompanying" doc
-* need a quick list of commands to verify a feature or troubleshoot an issue
-* when run into issues, need a "working example" as a reference
+* read the official VMX documents, use this as an "accompanying" doc for better
+  understanding to the materials
+* need a quick list or "cheatsheet" kind of commands to when verifing a feature
+  or troubleshooting an issue
+* when running into issues, need a "working example" as a reference
 
 .a "TODO" list:
 
 * breakdown of qemu command parameters
-* customerization of the installation script to make it startup friendly
+//* customerization of the installation script to make it startup friendly
 * libvirt API scripting
-* DPDK programming
-* internal crabs? (flow cache, junos troubleshooting, internal packet flow, etc)
+* Intel DPDK
+* NUMA
+* KSM
+* Intel EPT/AMD
+* HyperThreading(HT)
+* internal stuff (flow cache, junos troubleshooting, internal packet flow, etc)
+* troubleshooting
 
 ////
 * hot-swappable memory adding
@@ -9592,7 +9600,7 @@ endif::ht[]
 
 ifdef::dpdk[]
 
-== intel DPDK
+== Intel DPDK
 
 === DPDK basic concept
 

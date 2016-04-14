@@ -15,9 +15,10 @@ technology.
 
 :numbered!:
 
-== about This doc :
+== about This document :
 
-This doc records some learning and testing notes about KVM/MX86 technology.
+This document records some of my learning and testing notes about KVM/MX86 and
+related technologies. Current it contains:
 
 //* commands in this doc does not require: 
 //+
@@ -34,13 +35,15 @@ This doc records some learning and testing notes about KVM/MX86 technology.
   KVM/virtualization technology's perspecive 
 * some case studies
 
-This doc can be used as reference when you: 
+This doc can be used as a reference when you: 
 
-* read the official VMX documents, use this as an "accompanying" doc
-* need a quick list of commands to verify a feature or troubleshoot an issue
-* when run into issues, need a "working example" as a reference
+* read the official VMX documents, use this as an "accompanying" doc for better
+  understanding to the materials
+* need a quick list or "cheatsheet" kind of commands to when verifing a feature
+  or troubleshooting an issue
+* when running into issues, need a "working example" as a reference
 
-.format of this doc
+== format of this doc
 
 following format is available to read/download:
 
@@ -48,7 +51,7 @@ following format is available to read/download:
 * PDF:                  vmx-tutorial.pdf
 * asciidoc(pure text)   vmx-tutorial.adoc
 
-.future update
+== future update
 
 As things changes along and as I accumulated more practical usages cases/issues
 from the fields/discussions/lab tests, I may update this doc periodically
@@ -57,7 +60,7 @@ whenever I feel there is a need.
 The html file will always be the most up-to-date version. PDF version will be
 generated whenever big changes were made.
 
-.a "TODO" list:
+== a "TODO" list:
 
 There are a lot of relevant contents that I haven't put into this doc. I'll add
 more topics whenever I find more time and accumulated enough resources and test
@@ -77,5 +80,5 @@ cases.
 
 == feedback
 
-send your feedback/comment by email (pings@juniper.net) or open ticket in here if you find any issues.
+send your feedback/comment by email (pings@juniper.net) or open tickets in here if you find any issues.
 
