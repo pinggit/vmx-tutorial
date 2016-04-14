@@ -1,1 +1,1 @@
-vmx-tutorial.txt
+vmx-tutorial.adoc
