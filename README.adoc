@@ -49,7 +49,6 @@ following format is available to read/download:
 
 * HTML:                 vmx-tutorial.html
 * PDF:                  vmx-tutorial.pdf
-* asciidoc(pure text)   vmx-tutorial.adoc
 
 == future update
 
